@@ -16,13 +16,13 @@ namespace ProductAdd.Application.Wrappers
         {
 
         }
+        //public PagedResponse()
+        //{
+        //    PageNumber = 1;
+        //    PageSize = 10;
 
-        public PagedResponse()
-        {
-            PageNumber = 1;
-            PageSize = 10;
-            
-        }
+        //}
+
 
         public PagedResponse(T value, int pageSize, int pageNumber) : base(value)
         {
